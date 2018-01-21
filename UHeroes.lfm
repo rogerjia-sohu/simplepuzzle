@@ -1,0 +1,257 @@
+object HeroesForm: THeroesForm
+  Left = 685
+  Top = 364
+  BiDiMode = bdRightToLeft
+  BorderStyle = bsDialog
+  Caption = 'HeroesForm'
+  ClientHeight = 188
+  ClientWidth = 287
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'MS Sans Serif'
+  Font.Style = []
+  ParentBiDiMode = False
+  Position = poOwnerFormCenter
+  OnCreate = FormCreate
+  OnDeactivate = FormDeactivate
+  PixelsPerInch = 96
+  object BitBtn1: TBitBtn
+    Left = 106
+    Top = 155
+    Width = 75
+    Height = 25
+    Caption = '&OK'
+    TabOrder = 0
+    OnClick = BitBtn1Click
+    Kind = bkOK
+  end
+  object GroupBox1: TGroupBox
+    Left = 10
+    Top = 8
+    Width = 268
+    Height = 141
+    Hint = #36825#37324#21015#20986#20102#21069#20116#21517#36873#25163#30340#25104#32489
+    ParentShowHint = False
+    ShowHint = True
+    TabOrder = 1
+    object Label1: TLabel
+      Left = 11
+      Top = 15
+      Width = 32
+      Height = 13
+      AutoSize = False
+      Caption = #21517#27425
+    end
+    object Label2: TLabel
+      Left = 47
+      Top = 15
+      Width = 60
+      Height = 13
+      AutoSize = False
+      Caption = #31227#21160#27425#25968
+    end
+    object Label3: TLabel
+      Left = 113
+      Top = 15
+      Width = 60
+      Height = 13
+      AutoSize = False
+      Caption = #28040#32791#26102#38388
+    end
+    object lbl1: TLabel
+      Left = 13
+      Top = 36
+      Width = 15
+      Height = 15
+      Alignment = taRightJustify
+      AutoSize = False
+      BiDiMode = bdLeftToRight
+      Caption = '1'
+      ParentBiDiMode = False
+    end
+    object lbl2: TLabel
+      Left = 13
+      Top = 56
+      Width = 15
+      Height = 15
+      Alignment = taRightJustify
+      AutoSize = False
+      BiDiMode = bdLeftToRight
+      Caption = '2'
+      ParentBiDiMode = False
+    end
+    object lbl4: TLabel
+      Left = 13
+      Top = 96
+      Width = 15
+      Height = 15
+      Alignment = taRightJustify
+      AutoSize = False
+      BiDiMode = bdLeftToRight
+      Caption = '4'
+      ParentBiDiMode = False
+    end
+    object lbl3: TLabel
+      Left = 13
+      Top = 76
+      Width = 15
+      Height = 15
+      Alignment = taRightJustify
+      AutoSize = False
+      BiDiMode = bdLeftToRight
+      Caption = '3'
+      ParentBiDiMode = False
+    end
+    object lbl5: TLabel
+      Left = 13
+      Top = 116
+      Width = 15
+      Height = 15
+      Alignment = taRightJustify
+      AutoSize = False
+      BiDiMode = bdLeftToRight
+      Caption = '5'
+      ParentBiDiMode = False
+    end
+    object Label4: TLabel
+      Left = 180
+      Top = 15
+      Width = 59
+      Height = 13
+      AutoSize = False
+      Caption = #28216#25103#36873#25163
+    end
+    object lblStep1: TLabel
+      Left = 44
+      Top = 36
+      Width = 56
+      Height = 15
+      Alignment = taCenter
+      AutoSize = False
+      Caption = 'lblStep1'
+    end
+    object lblStep2: TLabel
+      Left = 44
+      Top = 56
+      Width = 56
+      Height = 15
+      Alignment = taCenter
+      AutoSize = False
+      Caption = 'lblStep2'
+    end
+    object lblStep3: TLabel
+      Left = 44
+      Top = 76
+      Width = 56
+      Height = 15
+      Alignment = taCenter
+      AutoSize = False
+      Caption = 'lblStep3'
+    end
+    object lblStep4: TLabel
+      Left = 44
+      Top = 96
+      Width = 56
+      Height = 15
+      Alignment = taCenter
+      AutoSize = False
+      Caption = 'lblStep4'
+    end
+    object lblStep5: TLabel
+      Left = 44
+      Top = 116
+      Width = 56
+      Height = 15
+      Alignment = taCenter
+      AutoSize = False
+      Caption = 'lblStep5'
+    end
+    object lblTime1: TLabel
+      Left = 108
+      Top = 36
+      Width = 62
+      Height = 15
+      Alignment = taCenter
+      AutoSize = False
+      Caption = 'lblTime1'
+    end
+    object lblTime2: TLabel
+      Left = 108
+      Top = 56
+      Width = 62
+      Height = 15
+      Alignment = taCenter
+      AutoSize = False
+      Caption = 'lblTime2'
+    end
+    object lblTime3: TLabel
+      Left = 108
+      Top = 76
+      Width = 62
+      Height = 15
+      Alignment = taCenter
+      AutoSize = False
+      Caption = 'lblTime3'
+    end
+    object lblTime4: TLabel
+      Left = 108
+      Top = 96
+      Width = 62
+      Height = 15
+      Alignment = taCenter
+      AutoSize = False
+      Caption = 'lblTime4'
+    end
+    object lblTime5: TLabel
+      Left = 108
+      Top = 116
+      Width = 62
+      Height = 15
+      Alignment = taCenter
+      AutoSize = False
+      Caption = 'lblTime5'
+    end
+    object lblPlayer1: TLabel
+      Left = 180
+      Top = 36
+      Width = 75
+      Height = 15
+      AutoSize = False
+      Caption = 'lblPlayer1'
+    end
+    object lblPlayer2: TLabel
+      Left = 180
+      Top = 56
+      Width = 75
+      Height = 15
+      AutoSize = False
+      Caption = 'lblPlayer2'
+    end
+    object lblPlayer3: TLabel
+      Left = 180
+      Top = 76
+      Width = 75
+      Height = 15
+      AutoSize = False
+      Caption = 'lblPlayer3'
+    end
+    object lblPlayer4: TLabel
+      Left = 180
+      Top = 96
+      Width = 75
+      Height = 15
+      AutoSize = False
+      Caption = 'lblPlayer4'
+    end
+    object lblPlayer5: TLabel
+      Left = 180
+      Top = 116
+      Width = 75
+      Height = 15
+      AutoSize = False
+      Caption = 'lblPlayer5'
+    end
+  end
+end

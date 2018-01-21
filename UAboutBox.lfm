@@ -1,0 +1,116 @@
+object AboutBox: TAboutBox
+  Left = 627
+  Top = 152
+  BorderStyle = bsDialog
+  Caption = 'AboutBox'
+  ClientHeight = 181
+  ClientWidth = 359
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'MS Sans Serif'
+  Font.Style = []
+  Position = poOwnerFormCenter
+  OnClose = FormClose
+  OnCreate = FormCreate
+  OnPaint = FormPaint
+  OnShow = FormShow
+  PixelsPerInch = 96
+  object ImgIcon: TImage
+    Left = 10
+    Top = 10
+    Width = 32
+    Height = 32
+    Center = True
+    Stretch = True
+    Transparent = True
+  end
+  object lblAppName: TLabel
+    Left = 55
+    Top = 10
+    Width = 255
+    Height = 14
+    AutoSize = False
+    Caption = 'AppName'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -11
+    Font.Name = 'MS Sans Serif'
+    Font.Style = [fsBold]
+    ParentFont = False
+    Transparent = True
+  end
+  object lblVersion: TLabel
+    Left = 55
+    Top = 28
+    Width = 255
+    Height = 14
+    AutoSize = False
+    Caption = 'OSVersion'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -11
+    Font.Name = 'MS Sans Serif'
+    Font.Style = [fsBold]
+    ParentFont = False
+    Transparent = True
+  end
+  object lblMyInfo: TLabel
+    Left = 55
+    Top = 50
+    Width = 282
+    Height = 81
+    AutoSize = False
+    Caption = 'lblMyInfo'
+    Transparent = True
+    WordWrap = True
+  end
+  object btnOK: TButton
+    Left = 49
+    Top = 146
+    Width = 75
+    Height = 25
+    Caption = '确定(&O)'
+    Default = True
+    Font.Charset = GB2312_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -12
+    Font.Name = #23435#20307
+    Font.Style = []
+    ModalResult = 1
+    ParentFont = False
+    TabOrder = 0
+  end
+  object btnSysInfo: TButton
+    Left = 141
+    Top = 146
+    Width = 75
+    Height = 25
+    Cancel = True
+    Caption = #31995#32479#20449#24687'(&S)'
+    Font.Charset = GB2312_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -12
+    Font.Name = #23435#20307
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 1
+    OnClick = btnSysInfoClick
+  end
+  object btnBugReport: TButton
+    Left = 233
+    Top = 146
+    Width = 75
+    Height = 25
+    Caption = #38169#35823#25253#21578'(&R)'
+    Font.Charset = GB2312_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -12
+    Font.Name = #23435#20307
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 2
+    OnClick = btnBugReportClick
+  end
+end
